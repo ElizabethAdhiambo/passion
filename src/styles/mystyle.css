@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+
+#prof-pic{
+    width: 100%;
+    border-radius: 23px 23px 0 0;
+}
+#info-head{
+    font-size: 30px;
+    color: black ;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+#info-desc{
+    font-size: 23px;
+    color: black ;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+#info-link:hover{
+    color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn{
+    padding: 12px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+}
+#email:hover{
+    background-color: magenta;
+    color: white;
+}
+#email{
+    border: 1px solid coral;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    background-color:white;
+}
+#linkedin:hover{
+    background-color: magenta;
+    color: white;
+}
+#linkedin{
+    border: 1px solid coral;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    background-color:blue;
+}
+#email > #icon{
+    padding-right: 8px;
+}
+#linkedin > #icn{
+    padding-right: 8px;
+}
+.persona-header{
+    color: black;
+    margin-left: 36px;
+    text-align: start;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.persona-para{
+    color: black;
+    margin-left: 36px;
+    margin-right: 36px;
+    text-align: justify;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(7, 7, 68);
+    border-radius: 0 0 23px 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon{
+   padding: 0 12px;
+   font-size: 26px;
+}
+#twitter{
+    color: crimson;
+}
+#twitter:hover{
+    color: blue;
+}
+#facebook{
+    color: coral;
+}
+#facebook:hover{
+    color: blue;
+}
+#instagram{
+    color: aqua;
+}
+#instagram:hover{
+    color: blue;
+}
+#github{
+    color: white;
+}
+#github:hover{
+    color: blue;
+}
+@media screen and (max-width:800px) {
+    .prof-pic{
+        max-width: 100%;
+        display: block;
+    }
+    .persona-header, .persona-para, #info-link{
+        display: block;
+        justify-content: center;
+        padding: 8px;
+        text-align: center;
+    }
+    .btns{
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-between;
+        gap: 22px;
+        align-items: center;
+    }
+    .btn{
+        width: 70%;
+        align-items: center;
+    }
+    .persona{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .info-link{
+        width: 100%;
+        margin-left:  8px;
+        margin-right: 8px;
+    }
+}
