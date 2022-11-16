@@ -37,8 +37,8 @@
     justify-content: center;
 }
 #email:hover{
-    background-color: magenta;
-    color: white;
+    background-color: rgb(88, 3, 88);
+    color: silver;
 }
 #email{
     border: 1px solid coral;
@@ -49,8 +49,8 @@
     background-color:white;
 }
 #linkedin:hover{
-    background-color: magenta;
-    color: white;
+    background-color: rgb(88, 3, 88);
+    color: silver;
 }
 #linkedin{
     border: 1px solid coral;
@@ -58,7 +58,7 @@
     color: black;
     cursor: pointer;
     align-items: center;
-    background-color:blue;
+    background-color: red;
 }
 #email > #icon{
     padding-right: 8px;
@@ -88,34 +88,29 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 .social-icon{
-   padding: 0 12px;
+   padding: 0 25px;
    font-size: 26px;
 }
 #twitter{
-    color: crimson;
+    color: gold;
 }
 #twitter:hover{
-    color: blue;
+    color: rgb(88, 3, 88);
 }
 #facebook{
-    color: coral;
+    color: gray;
 }
 #facebook:hover{
-    color: blue;
-}
-#instagram{
-    color: aqua;
-}
-#instagram:hover{
-    color: blue;
+    color: rgb(88, 3, 88);
 }
 #github{
     color: white;
 }
 #github:hover{
-    color: blue;
+    color: rgb(88, 3, 88);
 }
 @media screen and (max-width:800px) {
     .prof-pic{
