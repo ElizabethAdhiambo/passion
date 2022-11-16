@@ -10,7 +10,7 @@
 .App{
   width: 40%;
   height: 100%;
-  background-color: bisque;
+  background-color: darkcyan;
   border-radius: 23px;
 }
 @media screen and (max-width:800px){
